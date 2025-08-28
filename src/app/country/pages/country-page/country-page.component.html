@@ -1,0 +1,7 @@
+@if (isError() != null) {
+  <app-not-found/>
+}
+<!--  -->
+@if (country != undefined) {
+  <app-country-information-page [country]="country()!"/>
+}
